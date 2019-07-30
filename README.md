@@ -1,5 +1,8 @@
 # Airbrake-JS
 
+This is a react native compatible fork. The default repo depends on node's implementation of require which is incompatible with react native.
+
+
 [![Build Status](https://travis-ci.org/airbrake/airbrake-js.svg?branch=master)](https://travis-ci.org/airbrake/airbrake-js)
 [![CDNJS](https://img.shields.io/cdnjs/v/airbrake-js.svg)](https://cdnjs.com/libraries/airbrake-js)
 
@@ -8,6 +11,8 @@ This is the JavaScript notifier for capturing errors in web browsers and reporti
 <img src="http://f.cl.ly/items/443E2J1D2W3x1E1u3j1u/JS-airbrakeman.jpg" width=800px>
 
 ## Installation
+This form can be installed using:
+npm install giantslogik/airbrake-js --save
 
 airbrake-js can be installed using yarn:
 
