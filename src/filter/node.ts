@@ -3,7 +3,7 @@ import Notice from '../notice';
 export default function filter(notice: Notice): Notice {
   let os;
   try {
-    os = require('os');
+    //os = require('os');
   } catch (_) {
     // ignore
   }
