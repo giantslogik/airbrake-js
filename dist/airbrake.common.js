@@ -357,7 +357,7 @@ function filter$1(notice) {
 function filter$2(notice) {
     var os;
     try {
-        os = require('os');
+        //os = require('os');
     }
     catch (_) {
         // ignore
